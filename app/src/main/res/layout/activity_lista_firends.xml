@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#003366"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/lf_et_delete"
+        android:textColor="@color/colorAccent"
+        android:text=" Who to delete?"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#33cccc"
+        android:textColor="#FFF"
+        android:onClick="deleteFriend"
+        android:text="Remove Friend"
+
+        android:id="@+id/btn_remove" />
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:background="#FFF"
+        android:id="@+id/list_friends" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#33cccc"
+        android:textColor="#FFF"
+        android:text="back"
+        android:onClick="backmain"
+
+        android:id="@+id/btn_back" />
+
+
+
+</LinearLayout>
